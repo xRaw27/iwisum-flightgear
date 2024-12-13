@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "iwisum_flightgear"
+version = "0.1.0"
+description = ""
+authors = ["dariusz.piwowarski <d.piwowarski.mail@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jsbgym = {git = "https://github.com/sryu1/jsbgym"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
