@@ -12,8 +12,8 @@
 
 [Presentation](https://docs.google.com/presentation/d/1wuXKfcnfLoEAOjCU4VXwfJYgy3Y8b5RK/edit?usp=sharing&ouid=114868522244269490471&rtpof=true&sd=true)
 
-The goal of this project is to create an autopiolt for a Cessna 172P aircraft in FlightGear using reinforcement
-learning.
+The goal of this project is to create an autopilot able to fly in a straight line at a constant altitude. 
+We will use Cessna 172P aircraft in FlightGear and the autopilot will be trained using reinforcement learning.
 
 ### FlightGear setup on MacOS
 
