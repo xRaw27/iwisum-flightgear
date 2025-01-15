@@ -1,14 +1,16 @@
 import jsbgym
 import gymnasium as gym
+import numpy as np
 
 
 def attempt(environment):
     environment.reset()
     environment.render()
     done = False
+    truncated = False
     reward_sum = 0.0
-    while not done:
-        action = environment.action_space.sample()
+    while not done or truncated:
+        action = np.array([0.0, 0.0, 0.0])
         observation, reward, done, truncated, info = environment.step(action)
         reward_sum += reward
     return reward_sum
